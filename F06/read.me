@@ -1,0 +1,62 @@
+# Actividad de Filtrado y Análisis de Datos de Sensores
+
+## Instrucciones Generales
+
+- Descarga los archivos:
+  - 'temperatura.csv'
+  - 'humedad.csv'
+  - 'viento.csv'
+
+- Carga los archivos en Python utilizando 'pandas'.
+- Realiza las siguientes actividades utilizando 'matplotlib' para **graficar todos los pasos**.
+
+---
+
+## 1. Cargar los Datos
+
+- Cargar los 3 archivos CSV.
+- Graficar las señales originales de cada sensor usando 'matplotlib'.
+
+## 2. Aplicar Promediado Móvil
+
+- Aplicar un **promediado móvil** con una ventana de 5 muestras.
+- Graficar la señal original y la promediada juntas para cada sensor.
+
+## 3. Aplicar Filtro Pasa Bajas
+
+- Diseñar un filtro **pasa bajas** usando 'scipy.signal.butter' y 'scipy.signal.filtfilt'.
+- Utilizar una frecuencia de corte adecuada (ej. 0.1 en frecuencia normalizada).
+- Graficar la señal filtrada vs original.
+
+## 4. Aplicar Filtro Pasa Bandas
+
+- Diseñar un filtro **pasa bandas** para detectar componentes específicas.
+- Graficar la señal filtrada con pasa bandas.
+
+## 5. Análisis de Fourier (FFT)
+
+- Aplicar la **Transformada Rápida de Fourier (FFT)** sobre:
+  - Señal original
+  - Señal filtrada (pasa bajas y pasa bandas)
+- Graficar el espectro de frecuencias.
+- Comparar dónde se encuentra el ruido y justificar qué filtro es el más efectivo.
+
+## 6. Consideraciones para las Gráficas
+
+- Usar 'matplotlib' para graficar claramente:
+  - Agregar título, etiquetas de ejes (xlabel, ylabel), leyenda y cuadrícula.
+  - Comparar siempre en una misma figura cuando sea posible.
+
+---
+
+## Paquetes Sugeridos
+
+python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.signal import butter, filtfilt
+from scipy.fft import fft, fftfreq
+
+---
+Analiza cuidadosamente los resultados de cada tipo de filtrado y argumenta cuál es el mejor en cada caso basándote en el análisis de FFT.
