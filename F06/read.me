@@ -3,19 +3,19 @@
 ## Instrucciones Generales
 
 - Descarga los archivos:
-  - 'temperatura.csv'
-  - 'humedad.csv'
-  - 'viento.csv'
+  - `temperatura.csv`
+  - `humedad.csv`
+  - `viento.csv`
 
-- Carga los archivos en Python utilizando 'pandas'.
-- Realiza las siguientes actividades utilizando 'matplotlib' para **graficar todos los pasos**.
+- Carga los archivos en Python utilizando `pandas`.
+- Realiza las siguientes actividades utilizando `matplotlib` para **graficar todos los pasos**.
 
 ---
 
 ## 1. Cargar los Datos
 
 - Cargar los 3 archivos CSV.
-- Graficar las señales originales de cada sensor usando 'matplotlib'.
+- Graficar las señales originales de cada sensor usando `matplotlib`.
 
 ## 2. Aplicar Promediado Móvil
 
@@ -24,7 +24,7 @@
 
 ## 3. Aplicar Filtro Pasa Bajas
 
-- Diseñar un filtro **pasa bajas** usando 'scipy.signal.butter' y 'scipy.signal.filtfilt'.
+- Diseñar un filtro **pasa bajas** usando `scipy.signal.butter` y `scipy.signal.filtfilt`.
 - Utilizar una frecuencia de corte adecuada (ej. 0.1 en frecuencia normalizada).
 - Graficar la señal filtrada vs original.
 
@@ -43,7 +43,7 @@
 
 ## 6. Consideraciones para las Gráficas
 
-- Usar 'matplotlib' para graficar claramente:
+- Usar `matplotlib` para graficar claramente:
   - Agregar título, etiquetas de ejes (xlabel, ylabel), leyenda y cuadrícula.
   - Comparar siempre en una misma figura cuando sea posible.
 
@@ -51,12 +51,9 @@
 
 ## Paquetes Sugeridos
 
-python
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, filtfilt
 from scipy.fft import fft, fftfreq
-
----
-Analiza cuidadosamente los resultados de cada tipo de filtrado y argumenta cuál es el mejor en cada caso basándote en el análisis de FFT.
