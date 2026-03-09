@@ -69,7 +69,7 @@ Este repositorio contiene los programas base en **Python** y **C** para una acti
 
 ---
 
-## Entrega en eMinus
+## Entrega en eminus
 - Subir el repositorio a GitHub (público o privado con acceso para el docente).
 - Copiar el enlace público del repositorio y pegarlo en la actividad **organizador gráfico 1** de eMinus.
 - En la descripción de la actividad indicar la versión entregada (ej. `python_no_opt.py v1.1.0, c_no_opt.c v1.1.0`) y la ruta al `results/` con los CSVs.
