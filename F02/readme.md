@@ -1,7 +1,7 @@
 # README.md
 
 ## Propósito del ejercicio
-Este repositorio contiene los programas base en **Python** y **C** para una actividad de optimización: cada archivo debe **mantener su nombre original** y, cuando se mejore, **aumentar la versión en la cabecera del propio archivo** (por ejemplo `Versión: 1.0.0` → `Versión: 1.1.0`). El objetivo es que el estudiante analice, optimice, documente línea a línea y mida el impacto de las optimizaciones sin renombrar archivos; todo el trabajo se sube al repositorio y se entrega el enlace en la actividad de eMinus titulada **organizador gráfico 1**.
+Este repositorio contiene los programas base en **Python** y **C** para una actividad de optimización: cada archivo debe **mantener su nombre original** y, cuando se mejore, **aumentar la versión en la cabecera del propio archivo** (por ejemplo `Versión: 1.0.0` → `Versión: 1.1.0`). El objetivo es que el estudiante analice, optimice, documente línea a línea y mida el impacto de las optimizaciones sin renombrar archivos; todo el trabajo se sube al repositorio y se entrega el enlace en la actividad de eminus titulada **organizador gráfico 1**.
 
 ---
 
