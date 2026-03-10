@@ -27,7 +27,7 @@ Este repositorio contiene los programas base en **Python** y **C** para una acti
   - resumen de cambios (1–3 líneas),
   - fecha y autor del commit.
 - **Commits**: cada mejora debe ser un commit independiente con mensaje que incluya el nombre del archivo y la nueva versión, por ejemplo:  
-  `opt: python_no_opt.py v1.0.0 -> v1.1.0 — usar dict para conteo`.
+  `opt: python_no_opt.py v1.0.0 -> v1.1.0`.
 - **Tags opcionales**: pueden añadirse tags Git por versión global del repositorio (ej. `v1.1.0`), pero **no** deben usarse para sustituir la versión dentro de los archivos.
 
 ---
