@@ -1,5 +1,5 @@
 # Proyecto: Estructuras de Datos en Python y su Equivalente en C  
-## Instrucciones Generales para el Estudiante
+## Instrucciones Generales
 
 Este repositorio contiene un ejemplo introductorio cuyo propósito es que practiques **listas, tuplas, diccionarios y sets en Python**, y luego reproduzcas **el mismo comportamiento en C**, donde estas estructuras no existen de forma nativa y deben simularse manualmente.
 
